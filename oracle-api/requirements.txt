@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gunicorn
+transformers
+torch
+pandas
+web3
+hugchat
