@@ -39,7 +39,7 @@ docker build --tag sc-scan .
 2. Run the Docker Image:
 
 ```bash
-docker run -d -p 3100:3100 sc-scan
+docker run -d -p 8080:8080 sc-scan
 ```
 
 These commands build and run the Docker image locally, allowing you to access the application at localhost. Refer to the `Dockerfile` for more details on building and running Docker images.

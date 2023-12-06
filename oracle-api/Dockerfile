@@ -11,6 +11,6 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 COPY . .
 
-EXPOSE 3100
+EXPOSE 8080
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--reload", "--loop", "asyncio", "--port", "3100"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--reload", "--loop", "asyncio", "--port", "8080"]
